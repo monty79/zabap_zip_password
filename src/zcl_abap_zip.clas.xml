@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ABAP_ZIP</CLSNAME>
+    <LANGU>R</LANGU>
+    <DESCRIPT>Работа с ZIP архивом</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Вставляет файл в zip-папку</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_XSTRING_TO_RAW16_TABLE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Конвертирует XSTRING в RAW16</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CRC32</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Вычислить значение CRC32</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Удаляет файл в zip-папке</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ENCRYPT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Шифрует</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GEN_SALT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Генерит ключ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Читает файл из zip-папки</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_COUNTER_INCREMENT</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Увеличивает счетчик</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_KEYS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Возвращает ключ</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOAD</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Загружает и разделяет zip-файл</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PBKDF2_SHA1_SALT_1000</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Генерит хэш</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PROGRESS_BAR</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Отображение индикатора процесса выполнения</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Создает ZIP-файл</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_KEY_LEN</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Устанавливает длину ключа</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_PASS</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Устанавливает пароль для архива в атрибут mv_password</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SPLICE</CMPNAME>
+     <LANGU>R</LANGU>
+     <DESCRIPT>Загружает и разделяет zip-файл</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
